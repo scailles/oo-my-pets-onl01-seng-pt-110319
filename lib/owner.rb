@@ -65,8 +65,7 @@ class Owner
   end
       
   def list_pets
-    ndogs= dogs.count
-    ncats= cats.count
+    
     puts "I have #{dogs.count} dogs"
      
 end
