@@ -41,7 +41,7 @@ class Owner
   Cat.new(name,owner=self, mood="nervous")
   end
   
-  def buy_dog(name, owner, mood="nervous")
+  def buy_dog(name, owner=self, mood="nervous")
     Dog.new(name,owner=self, mood="nervous")
   end
   
