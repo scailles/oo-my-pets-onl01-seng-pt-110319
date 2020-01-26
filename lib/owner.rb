@@ -41,6 +41,9 @@ class Owner
   Cat.new
   end
   
+  def buy_dog
+  end
+  
   def walk_dogs
    dogs.each do |pup|
      pup.mood = "happy"
