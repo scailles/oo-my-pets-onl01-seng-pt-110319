@@ -61,6 +61,7 @@ class Owner
       kitty.mood = "nervous"
       kitty.owner = nil
     end
+  end
       
      
 end
