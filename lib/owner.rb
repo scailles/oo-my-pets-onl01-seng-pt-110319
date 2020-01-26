@@ -38,7 +38,7 @@ class Owner
   end
   
   def buy_cat
-  cat= Cat.new
+  
   end
   
   def walk_dogs
