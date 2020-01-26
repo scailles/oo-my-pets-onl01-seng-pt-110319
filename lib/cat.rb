@@ -8,7 +8,7 @@ class Cat
     @name=name
     @owner=owner
     @mood=mood
-    Owner.buy_cat(self) if person
+    @@all_cats << Owner.buy_cat(self) if owner
     @@all_cats << self
   end
   
