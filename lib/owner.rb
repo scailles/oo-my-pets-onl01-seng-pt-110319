@@ -65,6 +65,8 @@ class Owner
   end
       
   def list_pets
+    ndogs= dogs.count
+    ncats= cats.count
     
      
 end
