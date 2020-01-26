@@ -40,13 +40,9 @@ class Owner
   
   def buy_cat
   cat=Cat.new(owner==self) 
-  
   end
   
   def walk_dogs
-    @my_dogs.each do |dog|
-      dog.mood="happy"
-    end
-  end
+   dogs
      
 end
