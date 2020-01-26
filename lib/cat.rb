@@ -8,6 +8,7 @@ class Cat
     @name=name
     @owner=owner
     @mood=mood
+    owner.buy_cat
     @@all_cats << self
   end
   
