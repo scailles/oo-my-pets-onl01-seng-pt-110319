@@ -8,12 +8,9 @@ class Cat
     @name=name
     @owner=owner
     @mood=mood
-    save
-  end
-  
-  def save
     @@all_cats << self
   end
+  
   
   def self.all
     @@all_cats
