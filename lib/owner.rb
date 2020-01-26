@@ -39,9 +39,8 @@ class Owner
   end
   
   def buy_cat
-   
-   number_of_cats= Cat.all.select{|cat| cat.owner == self}
-   number_of_cats.count
+  cat=Cat.new(owner==self) 
+  
   end
   
   def walk_dogs
