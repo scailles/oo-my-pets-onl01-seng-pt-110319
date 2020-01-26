@@ -5,13 +5,13 @@ class Owner
   attr_reader :name, :species
   
   @@all=[]
+  @@my_dogs=[]
+  @@my_cats=[]
   
   def initialize(species="human",name)
     @species=species
     @name=name
     @@all << self
-    @cats=[]
-    @dogs=[]
   end
   
   def say_species
@@ -35,7 +35,8 @@ class Owner
   end
   
   def dogs
-  @dog << Dog.all.select {|dog| dog.owner == self}
+  @@dog << Dog.all.select {|dog| dog.owner == self}
+  
  end
   
   def buy_cat
