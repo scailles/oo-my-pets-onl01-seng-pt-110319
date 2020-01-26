@@ -42,7 +42,7 @@ class Owner
   end
   
   def buy_dog(name, owner, mood="nervous")
-    Dog.new()
+    Dog.new(name,owner=self, mood="nervous")
   end
   
   def walk_dogs
