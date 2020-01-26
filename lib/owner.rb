@@ -39,7 +39,7 @@ class Owner
   end
   
   def buy_cat
-    Cat.new(owner)= @owner
+    Cat.new(owner)== @owner
   end
     
   
