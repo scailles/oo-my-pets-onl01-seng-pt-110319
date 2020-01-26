@@ -71,7 +71,7 @@ class Owner
   def list_pets
    ndogs = dogs.count
    ncats = cats.count
-  "I have #{ndogs} dog(s(, and #{ncats} cat(s)."
+  "I have #{ndogs} dog(s), and #{ncats} cat(s)."
   end
      
 end
