@@ -40,7 +40,7 @@ class Owner
   
   def buy_cat
    Cat.new
-   
+   Cat.all.select{|cat| cat.owner == self}.count
   end
      
 end
