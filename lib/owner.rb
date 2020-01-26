@@ -38,6 +38,7 @@ class Owner
    if Dog.all.select {|dog| dog.owner == self}
      << @dogs
      @dogs
+   end
   end
   
   def buy_cat
